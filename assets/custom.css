@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* GLOBAL TAG */
+.bg-tema {
+    background-color: #99b9bc;
+}
+
+.btn-tema {
+    background-color: #43696d;
+    color: white;
+}
+
+.btn-footer {
+    background-color: #99b9bc;
+    color: white;
+}
+
+.text-tema {
+    color: #99b9bc;
+}
+
+.text-tema-dark {
+    color: #31494c;
+}
+
+.bg-tema-dark {
+    background-color: #31494c;
+    color: white;
+}
+
+/* GLOBAL SIZE */
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-mid .nav-link a {
+    color: black !important;
+}
+
+.navbar-nav .active .nav-link {
+    color: #8fc9ce !important;
+    font-weight: 500;
+    text-shadow: 0.5px 0.2px rgb(182, 182, 182);
+}
+
+/* hero */
+.hero {
+    position: relative;
+    height: 350px;
+}
+
+.card-caption {
+    background-color: rgba(255, 255, 255, 0.817);
+    position: absolute;
+    z-index: 1;
+    left: 1%;
+    padding: 2em;
+    width: 80%;
+    bottom: 10%;
+    border: 0.5px solid rgba(128, 128, 128, 0.083);
+}
+
+.card-caption h5 {
+    font-size: 2rem;
+}
+
+.card-caption p {
+    font-size: 0.8rem;
+}
+
+/* Company */
+#company {
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background-color: rgb(247, 247, 247);
+}
+
+#company h5 {
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 650;
+    color: #3b5356;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+#company i {
+    color: #7b8384;
+    font-size: 2rem;
+}
+
+/* Hot Deal */
+#hot-deal {
+    padding: 2em 1em 5em 1em;
+    margin-top: 2em;
+}
+
+#hot-deal h5 {
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+
+#hot-deal p {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: slategray;
+}
+
+#hot-deal h5 i {
+    color: orangered;
+}
+
+#hot-deal .title {
+    font-weight: 500;
+}
+
+#hot-deal .sub-title {
+    font-weight: 100;
+    color: slategray;
+    font-size: 0.6rem;
+}
+
+/* footer */
+footer h5 {
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+footer button {
+    margin: 10px;
+    font-size: 0.6rem !important;
+    border-radius: 20px !important;
+}
+
+footer .p-foot-2 {
+    font-weight: 100;
+    font-size: x-small;
+}
+
+footer h6 {
+    font-weight: 500;
+    font-size: small;
+}
+
+.t-foot-2 {
+    font-weight: 500;
+    font-size: medium;
+}
+
+/* end footer */
+
+/* dev */
+#dev {
+    background-color: #203537;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+#dev * {
+    font-size: small;
+    color: rgb(162, 162, 162);
+}
+
+/* end dev */
+
+/* DEKSTOP SIZE */
+@media (min-width: 992px) {
+    .navbar .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nav-mid .nav-link {
+        margin-left: 15px;
+    }
+
+    .hero {
+        height: 600px;
+    }
+
+    .img-hero {
+        max-width: 1920px;
+        width: 80%;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+
+    .card-caption {
+        background-color: rgba(255, 255, 255, 0.501);
+        border: none;
+        max-width: 500px;
+        width: 50%;
+        padding-top: 5em;
+        left: 0;
+        padding-bottom: 5em;
+        margin-top: 10%;
+        bottom: 20%;
+    }
+
+    .card-caption h5 {
+        font-size: 3rem;
+    }
+
+    .card-caption p {
+        font-size: 1rem;
+    }
+
+    /* company */
+    #company {
+        margin-top: 2em;
+    }
+
+    #company h5 {
+        font-size: 1.5rem;
+    }
+
+    #company i {
+        font-size: 4rem;
+    }
+
+    /* hot deal */
+    #hot-deal h5 {
+        margin-bottom: 0;
+        font-size: 2.5rem;
+    }
+
+    #hot-deal p {
+        margin-top: 0.5em;
+    }
+
+    #hot-deal .sub-title {
+        font-size: 1rem;
+    }
+
+    /* footer */
+    footer button {
+        font-size: 1rem !important;
+    }
+
+    /* end footer */
+}
